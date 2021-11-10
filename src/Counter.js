@@ -8,7 +8,7 @@ function reducer(state, action) { //현재상태와 action객체를 받아옴
             return state + 1; //새로운 상태를 반환
         case 'DECREMENT':   
             return state - 1; 
-        default:
+        default: 
             throw new Error('Unhandled action');
     }
 }
